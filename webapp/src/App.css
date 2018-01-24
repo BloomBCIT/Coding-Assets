@@ -1,0 +1,135 @@
+body {
+    width:100%;
+    height:100%;
+    background-image: url(img/Bloom_bg.png);
+}
+
+.wrap {
+    position:absolute;
+    width:100%;
+    height:100%;
+    margin:auto;
+    align-content: center;
+}
+
+.bloomDiv{
+    text-align: center;
+    position: absolute;
+    height:130px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 400px;
+    height:180px;
+    margin: auto;
+    color:white;
+}
+.bloom{
+    font-size: 6.5em;
+    margin:auto;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+   
+    /*glow effect is from code pen https://codepen.io/FelixRilling/pen/qzfoc?limit=all&page=1&q=neon */
+}
+
+
+.kaylie{
+    position:absolute;
+    text-align: center;
+    top:0;
+    bottom:0;
+    height:300px;
+    width:300px;
+    margin: auto;
+    color:white;
+}
+
+
+.sehee{
+    text-align: center;
+    right:0;
+    top:0;
+    bottom:0;
+    height:300px;
+    width:300px;
+    margin: auto;
+    position:absolute;
+    color:#ffffff;
+    
+}
+
+.kaylieCircle {
+    text-align: center;
+    margin: auto;
+	width: 200px;
+	height: 200px;
+    background-image: url(img/kaylie.jpg);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+    box-shadow: 0 0 25px #00f5ff, 0 0 5px darkblue;
+}
+
+
+
+.seheeCircle {
+    text-align: center;
+    right:0;
+    margin: auto;
+	width: 200px;
+	height: 200px;
+    background-image: url(img/sehee.jpg);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+    box-shadow: 0 0 25px #00f5ff, 0 0 5px darkblue;
+}
+
+.kaylieP, .seheeP{
+    font-family: monospace;
+    margin:0;
+    color: black;
+    font-size: 1.7em;
+    background-image: url(img/kaylie_note.png);
+}
+
+
+
+
+/* neon effect keyframes start*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #c51dd3, 0 0 20px #33c8ff, 0 0 30px #33c8ff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ca2fde, 0 0 35px #ca2fde, 0 0 40px #ca2fde, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+/* neon effect keyframes finish*/
