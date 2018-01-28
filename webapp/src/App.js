@@ -20,7 +20,7 @@ constructor(props){
             
             <div className="bloomDiv">
 
-               <img src={logo} alt="Logo" />;
+               <img src={logo} alt="Logo" />
             </div>
         
             <div className="kaylie">
@@ -28,7 +28,7 @@ constructor(props){
                     
                     
                     <div className="kaylieCircle">
-                        <p className="name">Kaylie Son</p>
+                        <p className="name">KAYLIE SON</p>
 
                     </div>
                 </Animated>
@@ -41,7 +41,7 @@ constructor(props){
                    
                     
                     <div className="seheeCircle">
-                     <p className="name">Sehee Ahn</p>
+                     <p className="name">SEHEE AHN</p>
                     </div>
                 </Animated>
                     

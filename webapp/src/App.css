@@ -90,10 +90,12 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    line-height: 180px;
+    line-height: 170px;
     color: #fff;
     visibility: hidden;
     opacity: 0;
+    font-size: 1.2em;
+    font-family: Gill Sans;
 }
 
 .kaylieCircle:hover .name {
@@ -108,7 +110,7 @@ body {
 
 
 .seheeCircle {
-    text-align: center;
+    
     text-align: center;
     margin: auto;
     width: 200px;
