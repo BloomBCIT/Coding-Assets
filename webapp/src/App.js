@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Animated} from "react-animated-css";
+import logo from "./img/logo2.png";
 
 class App extends Component {
     
@@ -18,28 +19,33 @@ constructor(props){
         <div className="wrap">
             
             <div className="bloomDiv">
-                <h1 className="bloom">BLOOM</h1>
-                <h2>We offer the best flowering tea</h2>
+
+               <img src={logo} alt="Logo" />;
             </div>
         
             <div className="kaylie">
                 <Animated animationIn="swing" animationOut="swing" isVisible={true}>
-                    <p className="kaylieP">Kaylie Son</p>
-                    <p>Designer</p>
-                    <div className="kaylieCircle"></div>
+                    
+                    
+                    <div className="kaylieCircle">
+                        <p className="name">Kaylie Son</p>
+
+                    </div>
                 </Animated>
                     
-                    <div className="kaylieNote"></div>
+                   
             </div>
 
              <div className="sehee">
                 <Animated animationIn="swing" animationOut="swing" isVisible={true}>
-                    <p className="seheeP">Se Hee Ahn</p>
-                    <p>Designer</p>
-                    <div className="seheeCircle"></div>
+                   
+                    
+                    <div className="seheeCircle">
+                     <p className="name">Sehee Ahn</p>
+                    </div>
                 </Animated>
                     
-                    <div className="seheeNote"></div>
+                   
             </div>
         
         </div>
